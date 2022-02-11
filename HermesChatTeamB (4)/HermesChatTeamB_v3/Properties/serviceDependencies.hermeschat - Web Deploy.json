@@ -7,10 +7,10 @@
       "connectionId": "ConnectionStrings:DefaultConnection"
     },
     "signalr1": {
-      "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.SignalRService/SignalR/HermesChatApp",
-      "type": "signalr.azure",
-      "connectionId": "Azure:SignalR:ConnectionString"
+      "ignored": "true",
+      "suggestion": "true",
+      "type": "signalr",
+      "connectionId": ""
     }
   }
 }

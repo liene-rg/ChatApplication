@@ -113,7 +113,7 @@ body {
     }
 
 .chat-input {
-    background-color: #443554;
+    background-color: #597597;
     min-height: 70px;
     max-height: 70px;
     z-index: 25;
@@ -121,14 +121,17 @@ body {
     display: flex;
     flex-direction: row;
     padding: 1rem;
+    
 }
 
     .chat-input > input {
         flex-grow: 2;
+        /*position: fixed;*/
     }
 
     .chat-input > button {
         flex-grow: 1;
+        /*position: fixed;*/
     }
 
 .modal {
@@ -160,7 +163,8 @@ body {
     min-width: 300px;
     display: flex;
     flex-direction: column;
-    background-color: #5c4773;
+    /*background-color: #5c4773;*/
+    background-color: #3869c9; /*create-button color*/
     padding: 1rem;
 }
 
@@ -179,4 +183,5 @@ body {
 
     .modal-body > footer {
         text-align: center;
+       /* position: fixed;*/
     }
