@@ -2,7 +2,7 @@
 var createRoomModal = document.getElementById('create-room-modal')
 
 createRoomBtn.addEventListener('click', function () {
-    createRoomModal.classList.add('active')
+    createRoomModal.classList.add('active')  /*//display model*/
 })
 
 function closeModal() {

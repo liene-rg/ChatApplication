@@ -56,6 +56,7 @@ body {
     box-shadow: 0 1px 3px 1px #333;
    /* background-color: #57446b;*/
     background-color: #376a94;
+    text-align: center;
 }
 
     .room-button > strong {
@@ -134,8 +135,8 @@ body {
         /*position: fixed;*/
     }
 
-.modal {
-    display: none;
+.modal {  /*//pops up and lets create a room*/
+    display: none; 
     position: fixed;
     min-height: 100vh;
     min-width: 100vw;

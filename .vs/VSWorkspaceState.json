@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HermesChatTeamB (4)",
+    "\\HermesChatTeamB (4)\\HermesChatTeamB_v3",
+    "\\HermesChatTeamB (4)\\HermesChatTeamB_v3\\wwwroot",
+    "\\HermesChatTeamB (4)\\HermesChatTeamB_v3\\wwwroot\\css"
   ],
-  "SelectedNode": "\\HermesChatTeamB_v3.sln",
+  "SelectedNode": "\\HermesChatTeamB (4)\\HermesChatTeamB_v3\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }

@@ -30,11 +30,11 @@ namespace HermesChatTeamB_v3
 
             services.AddIdentity<User, IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
-            .AddDefaultTokenProviders();
+            .AddDefaultTokenProviders(); //generate tokens for reset passwords, change email
 
             services.AddControllersWithViews();
 
-            services.AddTransient<IChatRepo, ChatRepo>();
+            services.AddTransient<IChatRepo, ChatRepo>(); // create a new instance within the request
 
             services.AddSignalR();
 
